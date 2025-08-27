@@ -1,0 +1,333 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sureshot Jackpot - Join Our Community</title>
+	
+  <!-- Meta Pixel Code -->
+<script async="" src="js/fbevents.js"></script><script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1358676165203694');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1358676165203694&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            min-height: 100vh;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+            margin: 20px auto 30px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #0f3460, #003366);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.3), 0 10px 30px rgba(0,0,0,0.5);
+            border: 2px solid #00ffff;
+        }
+
+        .logo img,
+        .logo-img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .logo-placeholder {
+            font-size: 40px;
+            color: #00ffff;
+            text-shadow: 0 0 20px #00ffff;
+        }
+
+        .channel-name {
+            font-size: 28px;
+            font-weight: bold;
+            color: #00ffff;
+            margin-bottom: 10px;
+            text-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff;
+        }
+
+        .tagline {
+            font-size: 16px;
+            color: #b0b0b0;
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+
+        .join-button {
+            background: linear-gradient(45deg, #0080ff, #00a0ff, #0040ff);
+            color: white;
+            padding: 20px 40px;
+            border: none;
+            border-radius: 50px;
+            font-size: 22px;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 50px;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 30px rgba(0, 128, 255, 0.6), 0 10px 30px rgba(0,0,0,0.3);
+            border: 2px solid #00a0ff;
+            text-shadow: 0 0 10px #ffffff;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .join-button:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 0 50px rgba(0, 160, 255, 0.8), 0 15px 40px rgba(0,0,0,0.4);
+        }
+
+        .join-button::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            transform: rotate(45deg);
+        }
+
+        @keyframes neonPulse {
+            0%, 100% {
+                box-shadow: 0 0 30px rgba(0, 128, 255, 0.6), 0 10px 30px rgba(0,0,0,0.3);
+            }
+            50% {
+                box-shadow: 0 0 50px rgba(0, 160, 255, 0.8), 0 0 80px rgba(0, 64, 255, 0.5), 0 10px 30px rgba(0,0,0,0.3);
+            }
+        }
+
+        @keyframes shine {
+            0% {
+                left: -50%;
+            }
+            100% {
+                left: 150%;
+            }
+        }
+
+        .content {
+            background: rgba(20, 20, 40, 0.8);
+            padding: 30px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.1), 0 10px 30px rgba(0,0,0,0.3);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 255, 255, 0.2);
+        }
+
+        .content h2 {
+            color: #00ffff;
+            margin-bottom: 20px;
+            font-size: 22px;
+            text-shadow: 0 0 15px #00ffff;
+        }
+
+        .content p {
+            color: #cccccc;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        .features {
+            display: grid;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .feature {
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 4px solid #00ffff;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            color: #ffffff;
+            transition: all 0.3s ease;
+        }
+
+        .feature:hover {
+            transform: translateX(5px);
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+        }
+
+        .feature-icon {
+            font-size: 20px;
+            margin-right: 10px;
+        }
+
+        .timer-section {
+            background: rgba(20, 20, 40, 0.9);
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 0 30px rgba(255, 0, 128, 0.3), 0 5px 20px rgba(0,0,0,0.3);
+            border: 1px solid rgba(255, 0, 128, 0.3);
+        }
+
+        .timer {
+            font-size: 36px;
+            font-weight: bold;
+            color: #ff00ff;
+            margin-bottom: 10px;
+            font-family: 'Courier New', monospace;
+            text-shadow: 0 0 20px #ff00ff;
+        }
+
+        .timer-text {
+            color: #b0b0b0;
+            font-size: 14px;
+        }
+
+        .footer {
+            background: rgba(0, 0, 0, 0.9);
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 30px;
+            border: 1px solid rgba(0, 255, 255, 0.2);
+        }
+
+        .footer a {
+            color: #00ffff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+            text-shadow: 0 0 10px #00ffff;
+        }
+
+        .footer a:hover {
+            color: #ff00ff;
+            text-shadow: 0 0 15px #ff00ff;
+        }
+
+        .footer-text {
+            color: #888;
+            font-size: 14px;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 15px;
+            }
+
+            .channel-name {
+                font-size: 20px;
+            }
+
+            .join-button {
+                font-size: 20px;
+                padding: 18px 35px;
+            }
+
+            .content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://i.ibb.co/WNW4P3X3/20250823-134119.png" alt="ANAYA PREDICTIONS Logo" class="logo-img">
+        </div>
+
+        <h1 class="channel-name">Sureshot jackpot</h1>
+
+        <p class="tagline">Sureshot Prediction 💯, Colour Hack 🎩, Number Prediction ⑱</p>
+
+        <a href="https://t.me/bunnytredingofficial" class="join-button" onclick="joinTelegram()">
+            📱 Join Telegram Channel
+        </a>
+
+        <div class="content">
+            <h2>🏆 What You'll Get</h2>
+            <div class="features">
+                <div class="feature">
+                    <span class="feature-icon">🎯</span>
+                    <strong>Sureshot Prediction 💯</strong>
+                </div>
+
+                <div class="feature">
+                    <span class="feature-icon">💪</span>
+                    <strong>Colour Hack 🎩</strong>
+                </div>
+            </div>
+
+            <p style="margin-top: 20px; text-align: center; font-style: italic;">
+                Join thousands of color enthusiasts who are already winning their game!
+            </p>
+        </div>
+          <a href="https://t.me/bunnytredingofficial" class="join-button" onclick="joinTelegram()">
+            📱 Join Telegram Channel
+        </a>
+
+        <div class="timer-section">
+            <div class="timer" id="countdown">00:30</div>
+            <div class="timer-text">Redirecting to special offer...</div>
+        </div>
+
+    </div>
+
+    <script>
+        // Countdown timer
+        let timeLeft = 30;
+        const timerElement = document.getElementById('countdown');
+
+        function updateTimer() {
+            const minutes = Math.floor(timeLeft / 60);
+            const seconds = timeLeft % 60;
+            timerElement.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+
+            if (timeLeft <= 0) {
+                // Replace with your actual redirect URL
+                window.location.href = 'https://t.me/bunnytredingofficial';
+                return;
+            }
+
+            timeLeft--;
+        }
+
+        // Update timer every second
+        setInterval(updateTimer, 1000);
+
+        // Join Telegram function
+        function joinTelegram() {
+            // Replace with your actual Telegram channel link
+            window.open('https://t.me/bunnytredingofficial', '_blank');
+        }
+    </script>
+
+
+</body></html>
